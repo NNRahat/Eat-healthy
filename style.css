@@ -3,3 +3,135 @@
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
 }
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
+}
+.main-top{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.leka{
+    /* padding-top: 10%; */
+    padding:12% 8%;
+    width: 50%;
+}
+.leka h1,p,a{
+    margin-bottom: 50px;
+}
+.orange-button{
+    background-image: linear-gradient(orange,rgb(255, 89, 0));
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+}
+.orange{
+    color: orange;
+}
+.stirchitro{
+    padding-top: 6%;
+    width: 50%;
+}
+.stirchitro img{
+    width: 90%;
+}
+
+/* aboutme */
+
+.second-sec{
+    background-image: url(images/shapes/Frame-58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    /* padding: 7% 7% 0 7%; */
+}
+.abt-pic{
+    width: 50%;
+    text-align: center;
+    padding-top: 1%;
+}
+.abt-pic img{
+    width: auto;
+    height: 100%;
+}
+
+.abt-leka{
+    width: 50%;
+    padding-top: 10%;
+}
+.abt-leka h2,p,a{
+    margin-bottom: 50px;
+}
+
+/* My recipies */
+
+.my-recipe{
+    padding: 10%;
+    text-align: center;
+}
+.my-rec-leka{
+    padding: 0% 10% 0% ;
+}
+.numofcards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.card{
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    margin: 4% 3%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 1px rgb(223, 218, 218);
+}
+/* .numofcards .card h2,p{
+    margin: 2%;
+} */
+#starttext{
+    text-align: start;
+}
+.card img{
+    width: 98%;
+}
+.famous-count{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 5% 0%;
+}
+.count{
+    display: flex;
+    width: 76%;
+    padding: 5% 0%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 25px 1px rgb(223, 218, 218);
+}
+.count-leka{
+    width: 33%;
+    text-align: center;
+}
+
+.sai-color{
+    color: rgb(191, 184, 184);
+}
+.footer{
+    background-color: black;
+    width: 100%;
+    padding: 5% 0%;
+    text-align: center;
+}
+.footer p{
+    color: #fff;
+    font-size: 17px;
+}
+
